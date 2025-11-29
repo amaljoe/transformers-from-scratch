@@ -1,0 +1,13 @@
+numpy
+matplotlib
+torch
+transformers
+scikit-learn
+streamlit
+jupyter
+notebook
+jupyterlab
+tqdm
+datasets
+evaluate
+wandb
