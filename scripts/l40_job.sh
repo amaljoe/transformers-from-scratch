@@ -10,15 +10,7 @@
 hostname
 nvidia-smi
 
-export WANDB_MODE=offline
-export HF_HUB_OFFLINE=1
-export TRANSFORMERS_OFFLINE=1
-export HF_DATASETS_OFFLINE=1
-export HF_EVALUATE_OFFLINE=1
-cd workspace/doctr-dit/
-source .venv/bin/activate
-
-python -c "import torch; import transformers"
+source scripts/setup-compute.sh
 
 jupyter lab --ip=0.0.0.0 --port=8888
 
