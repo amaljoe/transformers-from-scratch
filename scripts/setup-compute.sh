@@ -7,4 +7,4 @@ export HF_EVALUATE_OFFLINE=1
 cd ~/workspace/transformers-from-scratch
 source .venv/bin/activate
 
-python3 -c "import torch; import transformers"
+python3 -c "import torch; import transformers; import datasets"

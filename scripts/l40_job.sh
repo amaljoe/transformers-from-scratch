@@ -4,7 +4,7 @@
 #SBATCH --qos=l40
 #SBATCH --nodes=1
 #SBATCH --gres=gpu:4
-#SBATCH --time=4:00:00
+#SBATCH --time=2:00:00
 
 # Print node info
 hostname
