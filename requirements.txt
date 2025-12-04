@@ -11,3 +11,6 @@ tqdm
 datasets
 evaluate
 wandb
+bitsandbytes
+accelerate
+torchvision
