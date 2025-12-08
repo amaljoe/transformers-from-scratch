@@ -8,3 +8,6 @@ cd ~/workspace/transformers-from-scratch
 source .venv/bin/activate
 
 # python3 -c "import torch; import transformers; import datasets"
+
+# export MAX_JOBS=48
+# pip install .cache/flash_attn-2.7.3.tar.gz
