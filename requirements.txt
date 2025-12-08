@@ -1,7 +1,6 @@
 numpy
 matplotlib
 torch
-transformers
 scikit-learn
 streamlit
 jupyter
@@ -14,3 +13,13 @@ wandb
 bitsandbytes
 accelerate
 torchvision
+addict
+einops
+easydict
+transformers
+tokenizers
+PyMuPDF
+img2pdf
+Pillow
+numpy
+# flash-attn==2.7.3 --no-build-isolation
