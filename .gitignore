@@ -5,3 +5,5 @@ data
 wandb
 trainer_output
 .cache
+tmp_trainer
+output
